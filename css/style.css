@@ -37,7 +37,7 @@ body a:hover{
     height: 55px;
     padding: 10px;
     font-size: 1em;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: .9em;
     letter-spacing: 5px;
     border: 1px solid;
@@ -1705,7 +1705,7 @@ p.fugiat{
     font-size: 12px;
 }
 .dad-website {
-	color:#ffffff;
+	color:#c0c0c0;
 }
 /*-- //single --*/
 /*-----start-responsive-design------*/
