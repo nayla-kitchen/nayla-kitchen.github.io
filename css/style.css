@@ -645,7 +645,7 @@ div#myTabContent {
 	margin:0 0 1em;
 }
 /*-- social-icons --*/
-.social-nav {
+/* .social-nav {
     padding: 0;
     list-style: none;
     display: inline-block;
@@ -748,7 +748,7 @@ a.p i{
 a.p:hover i{
 	background:url(../images/img-sp.png) no-repeat -113px -199px;
     display: block;
-}
+} */
 /*-- //social-icons --*/
 input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts-grid1 h4 a,.single-grid-left-grid1 ul li a,.mail-grid-right1 ul.phone-mail li a,.pricing-plans-grid1 ul li,.pricing-plans-grid1 h5,.pricing-plans-grid1 h4,ul.footer-grid-list li a,.pricing-plans-grid1,.footer-grids1-left ul li a,.footer-grids1-right p a,.about-grids-left h4 a{
 	-webkit-transition: 0.5s ease-in;
@@ -851,7 +851,7 @@ ul.footer-grid-list li span{
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/arrow.png) no-repeat 0px 0px;
+	/* background: url(../images/arrow.png) no-repeat 0px 0px; */
 }
 #toTopHover {
 	width: 32px;
@@ -866,7 +866,7 @@ ul.footer-grid-list li span{
 /*-- //to-top --*/
 /*-- banner1 --*/
 .banner1{
-	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	/* background: url(../images/banner.jpg) no-repeat 0px 0px; */
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
