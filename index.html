@@ -129,30 +129,7 @@ License URL: https://creativecommons.org/licenses/by/3.0/
 	<script src="js/bootstrap.js"></script>
 
 <!-- //for bootstrap working -->
-<script>
 
-    waitForElementToDisplay("#es-header",function(){
-    	$("#es-header").style.display = 'none';
-    	console.log('hi');
-    	},1000,9000);
-
-    function waitForElementToDisplay(selector, callback, checkFrequencyInMs, timeoutInMs) {
-      var startTimeInMs = Date.now();
-      (function loopSearch() {
-        if (document.querySelector(selector) != null) {
-          callback();
-          return;
-        }
-        else {
-          setTimeout(function () {
-            if (timeoutInMs && Date.now() - startTimeInMs > timeoutInMs)
-              return;
-            loopSearch();
-          }, checkFrequencyInMs);
-        }
-      })();
-    }
-</script>
 </body>
 
 </html>
