@@ -24,7 +24,28 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
-
+figure{
+	display:table;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#aboutImg{
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
+#aboutImgCaption{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	font-size: 1em;
+}
+.aboutText {
+    font-size: 1em;
+    color: #999;
+    line-height: 1.8em;
+}
 .gmail{
 	font-family:'Oswald', sans-serif;
 	font-size:16px;
@@ -388,45 +409,6 @@ p.qui{
     top:58%;
     left:110%;
 }
-.services-grids-left-grid1-pos span{
-	background: url(../images/img-sp.png) no-repeat 0px 0px;
-    display: block;
-    width: 100px;
-    height: 100px;
-    padding: .5em;
-    border: 1px solid #999;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-}
-.services-grids-left-grid2-pos span{
-	background:url(../images/img-sp.png) no-repeat -113px 0px;
-	display:block;
-	width:100px;
-	height:100px;
-	padding: .5em;
-    border: 1px solid #999;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-}
-.services-grids-left-grid3-pos span{
-	background:url(../images/img-sp.png) no-repeat -243px 0px;
-	display:block;
-	width:100px;
-	height:100px;
-	padding: .5em;
-    border: 1px solid #999;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-}
 .services-grids-right-grid{
 	text-align:left !important;
 }
@@ -451,28 +433,8 @@ p.qui{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 }
-.service-grids-bottom h2:before{
-	background:url(../images/img-sp.png) no-repeat -6px -118px;
-	display:block;
-	width:32px;
-	height:32px;
-	position:absolute;
-	top:0%;
-	left:0%;
-	content:'';
-}
 /*-- //services --*/
 /*-- services-bottom --*/
-.services-bottom{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	min-height:400px;
-	padding:4em 0 0;
-}
 .services-bottom-left{
 	text-align:center;
 }
@@ -599,22 +561,6 @@ div#myTabContent {
 	font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
-.tabcontent-grids p{
-	color:#999;
-	line-height:1.8em;
-	width:60%;
-	margin:0 auto;
-}
-.tabcontent-grids img,.team-grid img {
-	margin: 0 auto;
-    padding: .4em;
-    box-shadow: 0px 0px 5px #C7C7C7;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-}
 .nav-tabs {
     width: 35%;
     margin: 0 auto;
@@ -649,111 +595,6 @@ div#myTabContent {
 	line-height:1.8em;
 	margin:0 0 1em;
 }
-/*-- social-icons --*/
-/* .social-nav {
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-    margin: 10px auto;
-}
-.social-nav li {
-    display: inline-block;
-}
-.model-8 a {
-    background: #FFF;
-}
-.model-8 a{
-    color:#C28F44;
-}
-.social-nav a {
-    display: inline-block;
-    float: left;
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    color:#6BC676;
-    text-decoration: none;
-    cursor: pointer;
-    text-align: center;
-    line-height: 30px;
-    background:#fff;
-    position: relative;
-    -webkit-transition: 0.5s ease-in;
-    -moz-transition: 0.5s ease-in;
-    -o-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
-	-ms-transition: 0.5s ease-in;
-}
-.model-8 a:hover {
-    color:#6BC676;
-}
-.model-8 a:hover {
-    -webkit-box-shadow: 0 30px 0 inset;
-	-o-box-shadow: 0 30px 0 inset;
-	-ms-box-shadow: 0 30px 0 inset;
-    -moz-box-shadow: 0 30px 0 inset;
-    box-shadow: 0 30px 0 inset;
-}
-a.facebook i{
-	background: url(../images/img-sp.png) no-repeat 3px -157px;
-    display: block;
-    width: 30px;
-    height: 30px;
-	-webkit-transition: 0.5s ease-in;
-    -moz-transition: 0.5s ease-in;
-    -o-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
-	-ms-transition: 0.5s ease-in;
-}
-a.facebook:hover i{
-	background:url(../images/img-sp.png) no-repeat 3px -198px;
-    display: block;
-}
-a.twitter i{
-	background:url(../images/img-sp.png) no-repeat -29px -158px;
-    display: block;
-    width: 30px;
-    height: 30px;
-	-webkit-transition: 0.5s ease-in;
-    -moz-transition: 0.5s ease-in;
-    -o-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
-	-ms-transition: 0.5s ease-in;
-}
-a.twitter:hover i{
-	background:url(../images/img-sp.png) no-repeat -29px -198px;
-    display: block;
-}
-a.g i{
-	background:url(../images/img-sp.png) no-repeat -73px -158px;
-    display: block;
-    width: 30px;
-    height: 30px;
-	-webkit-transition: 0.5s ease-in;
-    -moz-transition: 0.5s ease-in;
-    -o-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
-	-ms-transition: 0.5s ease-in;
-}
-a.g:hover i{
-	background:url(../images/img-sp.png) no-repeat -73px -198px;
-    display: block;
-}
-a.p i{
-	background:url(../images/img-sp.png) no-repeat -113px -159px;
-    display: block;
-    width: 30px;
-    height: 30px;
-	-webkit-transition: 0.5s ease-in;
-    -moz-transition: 0.5s ease-in;
-    -o-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
-	-ms-transition: 0.5s ease-in;
-}
-a.p:hover i{
-	background:url(../images/img-sp.png) no-repeat -113px -199px;
-    display: block;
-} */
 /*-- //social-icons --*/
 input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts-grid1 h4 a,.single-grid-left-grid1 ul li a,.mail-grid-right1 ul.phone-mail li a,.pricing-plans-grid1 ul li,.pricing-plans-grid1 h5,.pricing-plans-grid1 h4,ul.footer-grid-list li a,.pricing-plans-grid1,.footer-grids1-left ul li a,.footer-grids1-right p a,.about-grids-left h4 a{
 	-webkit-transition: 0.5s ease-in;
@@ -784,14 +625,6 @@ input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts
 .footer-grid input[type="submit"]:hover{
 	background:#fff;
 	color:#6BC676;
-}
-ul.footer-grid-list li{
-	font-size: 14px;
-    color: #999;
-    line-height: 1.8em;
-    padding-left: 2.5em;
-    background:url(../images/img-sp.png) no-repeat -193px -124px;
-    list-style-type: none;
 }
 ul.footer-grid-list li:nth-child(2){
 	margin:2em 0 0;
@@ -911,11 +744,6 @@ ul.footer-grid-list li span{
 }
 .collapsed span {
     display: inline-block;
-}
-.panel_text {
-    font-size: 14px;
-    color: #999;
-    line-height: 1.8em;
 }
 .about-grids-left h4 {
     font-size: 1.1em;
@@ -1281,9 +1109,6 @@ h2.typoh2{
 .gallery-grids{
 	margin:3em 0 0;
 }
-.gallery-grids a img{
-	padding:0 0 0 .5em;
-}
 .gallery-grid{
 	float:left;
 	width:40%;
@@ -1376,16 +1201,6 @@ h2.typoh2{
 	padding:2em;
 	background:#62B06B;
 	text-align:center;
-}
-.mail-grid-right1 img {
-    margin: 0 auto;
-    padding: .5em;
-    border: 1px dotted #212121;
-    border-radius: 100%;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	-o-border-radius: 100%;
-	-ms-border-radius: 100%;
 }
 .mail-grid-right1 h4{
 	font-size:1em;
@@ -1532,11 +1347,6 @@ p.fugiat{
 	float:left;
 	width:20%;
 }
-.author-grid-left img{
-	padding:.5em;
-	border:2px dotted #fff;
-	border-radius:50%;
-}
 .author-grid-right{
 	float:right;
 	width:75%;
@@ -1619,15 +1429,6 @@ p.fugiat{
 }
 .search1 input[type="submit"]:hover{
 	background:#212121;
-}
-.categories ul li {
-	list-style-type: none;
-    background: url(../images/img-sp.png) no-repeat -10px -378px;
-    display: block;
-    padding-left: 3em;
-    margin: 1.5em 0;
-    color: #999;
-    font-size: 14px;
 }
 .categories ul li a {
 	color: #999;
@@ -2124,9 +1925,6 @@ p.fugiat{
 		width: 60%;
 		margin: 0 auto;
 	}
-	.gallery-grids a img {
-		padding: 0 0 .5em;
-	}
 	.gallery-grid .textbox {
 		width: 66.7%;
 		top: 33px;
@@ -2451,29 +2249,11 @@ p.fugiat{
 	.services-grids {
 		margin: 2em 0 0;
 	}
-	.services-grids-left-grid1-pos span {
-		background: url(../images/img-sp.png) no-repeat 0px 0px;
-		background-size: 515%;
-		width: 80px;
-		height: 80px;
-	}
 	.services-grids-left, .services-grids-right {
 		margin-right: 3em;
 	}
-	.services-grids-left-grid3-pos span {
-		background: url(../images/img-sp.png) no-repeat -195px 0px;
-		width: 80px;
-		height: 80px;
-		background-size: 515%;
-	}
 	.services-grids-left-grid1-pos, .services-grids-left-grid3-pos {
 		left: 103%;
-	}
-	.services-grids-left-grid2-pos span {
-		background: url(../images/img-sp.png) no-repeat -90px 0px;
-		background-size: 515%;
-		width: 80px;
-		height: 80px;
 	}
 	.services-grids-left-grid2-pos {
 		left:103.5%;
