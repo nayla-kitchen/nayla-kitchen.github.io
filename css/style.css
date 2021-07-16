@@ -83,9 +83,6 @@ figure{
     text-transform: uppercase;
 	padding:1em;
 }
-.navbar-nav {
-    margin: 0 0 0 7em;
-}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #6BC676;
     background-color: transparent;
